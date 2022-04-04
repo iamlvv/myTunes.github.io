@@ -1,0 +1,153 @@
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: #252529;
+    margin: 0;
+    color: #fff;
+    line-height: 1.6;
+}
+main {
+    margin-top: -40px;
+}
+section {
+    text-align: center;
+}
+.nav-bar {
+    position: relative;
+}
+.nav-bar ul{
+    list-style: none;
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-left: 0;
+}
+.nav-bar li {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+.nav-bar li:hover {
+    cursor: pointer;
+    background-color: #333;
+}
+.mytunes {
+    background: url(background-mytunes.jpg) no-repeat center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+}
+h1 {
+    padding-top: 150px;
+    font-size: 56px;
+}
+h2 {
+    font-size: 36px;
+}
+p {
+    font-size: 24px;
+}
+.music h1 {
+    padding-top: 20px;
+}
+button {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+}
+.music button {
+    background-color: #b90415;
+    width: 200px;
+    height: 50px;
+}
+.movie-tv {
+    background-color: #fff;
+    color: #252529;
+    text-align: center;
+}
+.movie-tv h2 {
+    padding-top: 40px;
+}
+.movie-tv p, .entertainment p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.movie-tv button {
+    background-color: #103063;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.movie-tv img {
+    padding-bottom: 20px;
+}
+.entertainment {
+    margin-top: -40px;
+    background: url(starry_night.jpg) no-repeat center;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 500px;
+}
+.entertainment h2 {
+    padding-top: 100px;
+}
+.gift-cards {
+    margin-top: -40px;
+    background-color: #fff;
+    color: #252529;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 80px;
+}
+.gift-cards img {
+    position: relative;
+    float: left;
+    margin-left: 50px;
+    padding-top: 100px;
+    display: block;
+}
+.content {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.content h3 {
+    font-size: 24px;
+}
+span {
+    font-size: 22px;
+}
+.content p {
+    border-bottom: 1px solid #252529;
+    padding-bottom: 0;
+}
+.list {
+    text-align: center;
+    vertical-align: middle;
+    padding-bottom: 40px;
+}
+table {
+    padding: 40px 80px 40px 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+th {
+    padding: 0 30px 30px 0;
+}
+td {
+    text-transform: capitalize;
+    padding-right: 100px;
+}
+.foot {
+    margin-top: -40px;
+    margin-bottom: -40px;
+    background-color: #333;
+    padding: 5px;
+}
+.foot p {
+    font-size: 16px;
+}
